@@ -1,0 +1,91 @@
+/* Reset de estilos para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos para o corpo da página */
+body {
+    height: 100vh;
+    background-color:#3399ff;
+    color: white;
+}
+
+/* Estilos para o contêiner principal */
+.conteiner {
+  
+    background-color:white;
+    padding:2%;
+    border-radius:15pt;
+    width:25rem;
+    margin:3% auto;
+    color: #005EA1;
+    
+}
+
+label{
+    color:#005EA1;
+    font-weight:bolder;
+}
+
+.footer{
+   
+    width:20%;
+     margin:1% auto;
+     text-align:center;
+    
+}
+
+
+/* Estilos para o cabeçalho */
+h2 {
+    margin-bottom: 5%;
+    text-align:center;
+    font-size: 2rem;
+}
+
+/* Estilos para o formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para o botão padrão */
+button{
+    margin: 0 auto;
+    width: 146px;
+    height: 40px;
+    background-color:#3399ff;
+    color: #fffff;
+    border: 0;
+    margin-bottom: 5%;
+    font-weight: 600;
+    color:white;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+/* Estilos para o botão ao passar o mouse */
+button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #02375c;
+}
+
+/* Estilos para inputs e selects */
+input, select {
+    height: 2rem;
+    padding-left: 2%;
+}
+
+/* Estilos para links */
+a {
+    background:none;
+    width:auto;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    text-align:center;
+    
+}
