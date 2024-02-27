@@ -74,10 +74,14 @@
 	            transform:translateY(-50%);
 	          
                 padding:2%;
-               
+                
                 display:flex;
+               
                 flex-direction:column;
                 align-items:center;
+                
+                
+                  
                 
             }
             
@@ -186,6 +190,13 @@
 		    
 		}
 	    
+	    span a{
+	        color: #1f74ca;
+	    }
+	    span a:hover{
+	        
+	        color: #3399ff;
+	    }
 	    
 	    @media screen and (max-width:600px) {
 	        
@@ -304,6 +315,40 @@
             valor = valor.replace(/(\d{3})(\d{1,2})$/, '$1-$2');
             campo.value = valor;
         }
+        
+        var url = window.location.href;
+        if(url == "https://www.coren-pe.gov.br/srt/primeira-inscricao/consultar_cpf.php?erro=not_found" ){
+            alert("CPF NÃO CADASTRADO");
+        }else if(url == "https://www.coren-pe.gov.br/srt/primeira-inscricao/consultar_cpf.php?erro=verifiquecampos"){
+            
+            
+            alert("Verifique os campos e tente novamente");
+            
+            
+            
+            
+            
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     </script>
+    
+  
+  
+    
+    
+    
+    
+    
 </body>
 </html>

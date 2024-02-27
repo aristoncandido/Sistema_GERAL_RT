@@ -229,16 +229,6 @@ a:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width:700px) {
 
 
@@ -249,6 +239,10 @@ a:hover{
 
     body{
         max-height: 900px;
+       
+    }
+    .title{
+        height:15% !important;
     }
 
     h1{

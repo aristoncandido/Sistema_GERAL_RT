@@ -23,6 +23,7 @@
         }
  	 .container{
              height:100%;
+            
          }
          
          body{
@@ -35,7 +36,9 @@
         }
 
         .title {
-            height: 5%;
+    
+            padding-top:1%;
+            
         }
 
         .title h2 {
@@ -49,13 +52,21 @@
             border-radius: 15pt;
             margin: 5% auto;
             position: relative;
-            top: 15%;
+            top: 0%;
             padding: 2%;
         
             display: flex;
             flex-direction: column;
             align-items: center;
+            
+            
+            
+            
         }
+
+      
+
+
 
         .consulta button {
             padding: 1%;
@@ -156,6 +167,14 @@
 			
 			
 			
+			a:hover{
+			
+			color::#3399ff;
+			
+		}		
+			
+			
+			
 			 
 	    @media screen and (max-width:600px) {
 	        
@@ -177,6 +196,9 @@
 	            
 	            
 	        }
+	        .tilte{
+	        	margin-top:5%;
+	        }
 	        	
 		
 		
@@ -191,6 +213,23 @@
         <div class="logo">
             <img id="logo" src="../IMGS/logo2.png" alt="logo">
         </div>
+        
+        
+        <div class="title" >
+            <div class="bg-fundo">
+            <img src="../IMGS/blue.png" alt="background">
+            
+             
+        </div>
+            
+            <h1>
+                Consulta de Requerimento
+                
+            </h1>
+            
+        </div>
+        
+        
         <div class="consulta">
         
             <?php
@@ -239,7 +278,10 @@
 			            
 			            echo '</div>';
 			            
-			            echo '<button>Ver última requisição</button>';
+			            echo '<button name="requerimento">Ver último requerimento</button>';
+			            echo '<br>';
+			            echo '<a href="consultar_cpf.php">Voltar</a>';	
+			            
 			            
 			        } else {
 			        	
@@ -262,11 +304,20 @@
 			}
 			
             ?>
+            
+            
+		
+				            
         </div>
-        <div class="bg-fundo">
-            <img src="srt/IMGS/blue.png" alt="background">
-        </div>
+        
+        
+    
     </div>
+    
+      
+    
 </body>
+
+    
 
 </html>

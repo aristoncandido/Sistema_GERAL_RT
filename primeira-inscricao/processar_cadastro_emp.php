@@ -13,12 +13,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     
      if (empty($razao) || empty($cnpj) || empty($endereco) || empty($email) || empty($telefone) ) {
-        header('Location: cadastro-empresa?mensagem=camposobrigatorios');
+        header('Location: cadastro-empresa.php?mensagem=camposobrigatorios');
         exit();
     }
 
       if (!filter_var($email, FILTER_VALIDATE_EMAIL) || strlen($email) > 255) {
-        header('Location: cadastro-empresa?mensagem=camposobrigatorios');
+        header('Location: cadastro-empresa.php?mensagem=camposobrigatorios');
         exit();
     }
    
@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Check if the statement is prepared successfully
     if (!$stmt) {
         die("Erro na preparação da declaração: " . $conn->error);
-        header("Location: primeira-insc?ms=erro404 ");
+        header("Location: primeira-ins.php?ms=erro404 ");
     }
 
     // Bind parameters and execute the statement
@@ -55,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->close();
 
     // Redirect user with success message
-    header('Location: cadastro-empresa.php?mensagem=cadastrorealizado');
+    header('Location: consultar_cpf.php?mensagem=cadastrorealizado');
     exit(); // Terminate script execution after redirection
 }
 ?>

@@ -67,7 +67,7 @@
       
       
     
-       <a href="cadastro-empresa.php" >  <button type="submit" id="btn-cadastrar">Cadastrar</button> </a>
+    <button type="submit" id="bt-cadastrar">Cadastrar</button> 
        
   
                
