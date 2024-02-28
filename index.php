@@ -44,7 +44,7 @@
     
             
             .title{
-                height:5%;
+              
             }
             
             .title h2{
@@ -58,6 +58,7 @@
 
             a{
                 width: 100%;
+                font-size:7pt;
             }
 
     

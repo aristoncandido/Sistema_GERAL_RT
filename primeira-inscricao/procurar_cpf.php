@@ -175,7 +175,7 @@
 			
 			
 			 
-	    @media screen and (max-width:600px) {
+	    @media screen and (max-width:700px) {
 	        
 	         body{
 	            overflow-y:visible;
@@ -199,9 +199,26 @@
 	        	margin-top:5%;
 	        }
 	        	
+	        	
+	        	
+	        	h1{
+	        	    
+	        	    
+	        	    font-size:15pt;
+	        	}
 		
 		
         }        
+        
+        
+        @media screen and (max-width:400px){
+            
+            
+            #logo{
+                width:250px;
+            }
+            
+        }
 
 
 
