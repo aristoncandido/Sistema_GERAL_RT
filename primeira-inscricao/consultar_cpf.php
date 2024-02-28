@@ -246,9 +246,12 @@
           
           
               
-        <div class="logo">
+       <a href="../index.php">
+        
+       <div class="logo">
             <img id="logo" src="../IMGS/logo2.png" alt="logo">
         </div>
+        </a>
 
 
                         <div class="consulta">

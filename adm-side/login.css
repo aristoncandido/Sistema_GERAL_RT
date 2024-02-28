@@ -86,7 +86,7 @@ h1{
 
 
     width: 70%;
-    height: 90%;
+    height: 100%;
 
 }
 
@@ -235,5 +235,11 @@ p{
     #logo{
 
         width: 15rem;
+    }
+
+    h2{
+
+        top: 0;
+
     }
 }

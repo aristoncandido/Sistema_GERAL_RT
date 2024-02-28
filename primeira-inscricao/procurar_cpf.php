@@ -141,13 +141,12 @@
         width:80%;
         
         }
-        button{
+     button{
 		    margin: 0 auto;
 		    margin-top:5%;
 		    width: 146px;
-		  
 		    background-color:#3399ff;
-		    color: #fffff;
+		    color: #ffffff;
 		    border: 0;
 		    margin-bottom: 5%;
 		    font-weight: 600;
@@ -169,7 +168,7 @@
 			
 			a:hover{
 			
-			color::#3399ff;
+			color:#3399ff;
 			
 		}		
 			
@@ -196,13 +195,20 @@
 	            
 	            
 	        }
-	        .tilte{
+	        .title{
 	        	margin-top:5%;
 	        }
 	        	
 		
 		
-		
+        }        
+
+
+
+       
+        
+       
+     
 		
         
     </style>
@@ -210,9 +216,14 @@
 
 <body>
     <div class="container">
+
+            
+    <a href="../index.php">
+        
         <div class="logo">
-            <img id="logo" src="../IMGS/logo2.png" alt="logo">
-        </div>
+             <img id="logo" src="../IMGS/logo2.png" alt="logo">
+         </div>
+         </a>
         
         
         <div class="title" >

@@ -55,6 +55,11 @@
                 
             }
 
+
+            a{
+                width: 100%;
+            }
+
     
     
     
@@ -73,12 +78,13 @@
     <div class="conteiner">
         
         
+                
+       <a href="index.php">
         
-           <div class="logo">   
-                       <img id="logo" src="./IMGS/logo2.png" alt="logo">
-
-             </div>
-
+        <div class="logo">
+             <img id="logo" src="./IMGS/logo2.png" alt="logo">
+         </div>
+         </a>
 
 
         <header>
@@ -151,7 +157,9 @@
                                     </h2>
 
                                         <button>
+                                            <a href="./primeira-inscricao/consultar_cpf.php">
                                             ACESSAR
+                                         </a>
                                         </button>
 
 
@@ -172,9 +180,12 @@
                                         </h2>
 
                                         
-
                                         <button>
+                                            <a href="./primeira-inscricao/consultar_cpf.php">
+
+
                                             ACESSAR
+                                            </a>
                                         </button>
 
 
@@ -192,11 +203,14 @@
 
                                         <button>
 
-                                        <a href="primeira-inscricao/consultar_cpf.php">
+                                    
+                                            <a href="./primeira-inscricao/consultar_cpf.php">
 
-                                        ACESSAR
 
-                                        </a>
+                                       
+                                            ACESSAR
+
+                                         </a>
                                             
                                         </button>
 

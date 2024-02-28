@@ -97,7 +97,12 @@
     <div class="conteiner">
 
         <div class="logo">
+            <a href="/index.php">
+
             <img id="logo" src="../IMGS/logo2.png" alt="logo">
+
+            </a>
+            
         </div>
 
 
