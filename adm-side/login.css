@@ -7,6 +7,7 @@
 body{
     height: 100vh;
     width: 100%;
+    background-color:#3399ff;
    
 
 
@@ -31,8 +32,9 @@ body{
 #fundo{
 
     position: absolute;
+    bottom:0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     z-index: -99;
 
 }
@@ -242,4 +244,18 @@ p{
         top: 0;
 
     }
+    
+    #fundo{
+        
+        height:100vh;
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
 }

@@ -102,7 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <body>
  
-<iframe id="fundo" src="anima.html" frameborder="0"></iframe> 
+<iframe id="fundo" src="anima.html" frameborder="0" width:100%; height:100%;></iframe> 
 
 
     <div class="conteiner"> 

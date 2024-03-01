@@ -564,3 +564,104 @@ Stack trace:
 [09-Feb-2024 01:09:35 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/coren341/public_html/srt/adm-side/alterar_usuario.php on line 98
 [24-Feb-2024 23:53:24 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/coren341/public_html/srt/adm-side/alterar_usuario.php on line 98
 [24-Feb-2024 23:53:28 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/coren341/public_html/srt/adm-side/alterar_usuario.php on line 98
+[01-Mar-2024 12:25:43 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/coren341/public_html/srt/adm-side/alterar_usuario.php on line 98
+[01-Mar-2024 12:26:06 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/coren341/public_html/srt/adm-side/alterar_usuario.php on line 98
+[01-Mar-2024 12:29:52 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/coren341/public_html/srt/adm-side/alterar_usuario.php on line 98
+[01-Mar-2024 12:30:00 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/coren341/public_html/srt/adm-side/alterar_usuario.php on line 98
+[01-Mar-2024 12:31:22 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/coren341/public_html/srt/adm-side/alterar_usuario.php on line 98
+[01-Mar-2024 12:31:39 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/coren341/public_html/srt/adm-side/alterar_usuario.php on line 98
+[01-Mar-2024 12:43:16 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/coren341/public_html/srt/adm-side/alterar_usuario.php on line 98
+[01-Mar-2024 12:45:26 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/coren341/public_html/srt/adm-side/alterar_usuario.php on line 98
+[01-Mar-2024 12:45:54 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/coren341/public_html/srt/adm-side/alterar_usuario.php on line 98
+[01-Mar-2024 12:52:11 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/coren341/public_html/srt/adm-side/alterar_usuario.php on line 98
+[01-Mar-2024 15:23:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/coren341/public_html/srt/adm-side/header.php:208
+Stack trace:
+#0 /home/coren341/public_html/srt/adm-side/manager.php(43): include()
+#1 {main}
+  thrown in /home/coren341/public_html/srt/adm-side/header.php on line 208
+[01-Mar-2024 15:35:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/coren341/public_html/srt/adm-side/header.php:208
+Stack trace:
+#0 /home/coren341/public_html/srt/adm-side/manager.php(43): include()
+#1 {main}
+  thrown in /home/coren341/public_html/srt/adm-side/header.php on line 208
+[01-Mar-2024 15:35:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/coren341/public_html/srt/adm-side/header.php:208
+Stack trace:
+#0 /home/coren341/public_html/srt/adm-side/manager.php(43): include()
+#1 {main}
+  thrown in /home/coren341/public_html/srt/adm-side/header.php on line 208
+[01-Mar-2024 15:37:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/coren341/public_html/srt/adm-side/header.php:208
+Stack trace:
+#0 /home/coren341/public_html/srt/adm-side/manager.php(43): include()
+#1 {main}
+  thrown in /home/coren341/public_html/srt/adm-side/header.php on line 208
+[01-Mar-2024 15:38:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/coren341/public_html/srt/adm-side/header.php:208
+Stack trace:
+#0 /home/coren341/public_html/srt/adm-side/manager.php(43): include()
+#1 {main}
+  thrown in /home/coren341/public_html/srt/adm-side/header.php on line 208
+[01-Mar-2024 15:38:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/coren341/public_html/srt/adm-side/header.php:208
+Stack trace:
+#0 /home/coren341/public_html/srt/adm-side/manager.php(43): include()
+#1 {main}
+  thrown in /home/coren341/public_html/srt/adm-side/header.php on line 208
+[01-Mar-2024 15:38:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/coren341/public_html/srt/adm-side/header.php:208
+Stack trace:
+#0 /home/coren341/public_html/srt/adm-side/manager.php(43): include()
+#1 {main}
+  thrown in /home/coren341/public_html/srt/adm-side/header.php on line 208
+[01-Mar-2024 15:39:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/coren341/public_html/srt/adm-side/header.php:208
+Stack trace:
+#0 /home/coren341/public_html/srt/adm-side/manager.php(43): include()
+#1 {main}
+  thrown in /home/coren341/public_html/srt/adm-side/header.php on line 208
+[01-Mar-2024 16:43:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function mysqli_query() on null in /home/coren341/public_html/srt/adm-side/header.php:208
+Stack trace:
+#0 /home/coren341/public_html/srt/adm-side/manager.php(43): include()
+#1 {main}
+  thrown in /home/coren341/public_html/srt/adm-side/header.php on line 208
+[01-Mar-2024 16:45:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function mysqli_query() on null in /home/coren341/public_html/srt/adm-side/header.php:208
+Stack trace:
+#0 /home/coren341/public_html/srt/adm-side/manager.php(43): include()
+#1 {main}
+  thrown in /home/coren341/public_html/srt/adm-side/header.php on line 208
+[01-Mar-2024 16:48:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function mysqli_query() on null in /home/coren341/public_html/srt/adm-side/header.php:260
+Stack trace:
+#0 /home/coren341/public_html/srt/adm-side/manager.php(43): include()
+#1 {main}
+  thrown in /home/coren341/public_html/srt/adm-side/header.php on line 260
+[01-Mar-2024 16:48:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function mysqli_query() on null in /home/coren341/public_html/srt/adm-side/header.php:260
+Stack trace:
+#0 /home/coren341/public_html/srt/adm-side/manager.php(43): include()
+#1 {main}
+  thrown in /home/coren341/public_html/srt/adm-side/header.php on line 260
+[01-Mar-2024 17:16:44 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 71
+[01-Mar-2024 17:16:49 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 71
+[01-Mar-2024 17:16:51 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 71
+[01-Mar-2024 17:17:08 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 71
+[01-Mar-2024 17:22:50 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 75
+[01-Mar-2024 17:22:52 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 75
+[01-Mar-2024 17:23:08 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 75
+[01-Mar-2024 17:23:32 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 74
+[01-Mar-2024 17:23:43 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 74
+[01-Mar-2024 17:23:50 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 74
+[01-Mar-2024 17:24:24 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
+[01-Mar-2024 17:24:27 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
+[01-Mar-2024 17:24:37 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
+[01-Mar-2024 17:24:39 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
+[01-Mar-2024 17:25:01 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
+[01-Mar-2024 17:26:30 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
+[01-Mar-2024 17:26:39 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
+[01-Mar-2024 17:27:04 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
+[01-Mar-2024 17:27:09 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
+[01-Mar-2024 17:27:18 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
+[01-Mar-2024 17:27:19 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
+[01-Mar-2024 17:27:19 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
+[01-Mar-2024 17:27:20 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
+[01-Mar-2024 17:27:20 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
+[01-Mar-2024 17:27:20 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
+[01-Mar-2024 17:27:20 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
+[01-Mar-2024 17:27:21 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
+[01-Mar-2024 17:27:21 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
+[01-Mar-2024 17:27:21 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
+[01-Mar-2024 17:27:26 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
+[01-Mar-2024 17:27:35 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56

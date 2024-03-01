@@ -186,23 +186,66 @@
             </a>
         </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <main>
             <div class="block-right pesquisar">
-                <input id="pesquisa" type="text" placeholder="Pesquise aqui">
-                <select name="Filtro" id="filtro">
-                    <option value="selecione">Selecione</option>
-                    <option value="nome">Nome</option>
-                    <option value="instituicao">Instituição</option>
-                    <option value="CPF">CPF</option>
-                    <option value="inscricao">Inscrição</option>
-                    <option value="protocolo">Protocolo</option>
-                </select>
-                <button class="btn-pesquisa">
-                    <img id="btn-pesquisa" src="../IMGS/search-icon.svg" alt="" srcset="">
-                </button>
-            </div>
+                <form  action="pesquisa.php" method="GET" >
+                    
+                        <input id="pesquisa" type="text" placeholder="Pesquise aqui" name="pesquisa">
+                        
+                        <select name="filtro" id="filtro">
+                            <option value="selecione">Selecione</option>
+                            <option value="nome">Nome</option>
+                            <option value="instituicao">Instituição</option>
+                            <option value="cpf">CPF</option>
+                            <option value="inscricao">Inscrição</option>
+                            <option value="protocolo">Protocolo</option>
+                        </select>
+                        
+                        <button class="btn-pesquisa" " type="submit">
+                            <img id="btn-pesquisa" src="../IMGS/search-icon.svg" alt="" srcset="">
+                        </button>
+                
+                
+                </form> <!-- form -->
+                
+            </div><!-- pesquisar -->
         </main> <!-- main -->
     </div><!-- Conteiner Top -->
+    
+    
+    <div>
+    
+           
+            
+    
+    </div>
+    
+    
+    
+    
 
 </body>
 

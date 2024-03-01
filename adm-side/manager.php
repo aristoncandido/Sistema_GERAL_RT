@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<!-- <head>
+ <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="manager.css">
@@ -12,13 +12,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../IMGS/icone.png" type="image/x-icon">
 
-    <title>Sistema de Gestão de RT / COREN-PE</title>
-</head> -->
-
+    <title>Sistema de Gestão de RT </title>
+</head> 
 
 
 
 <style>
+
+
+
 
 </style>
 
@@ -135,7 +137,7 @@
 
 
     <script src="pesquisa.js"></script>
-    <script src="menu.js"></script>
+  <!-- <script src="menu.js"></script>-->
 
 
 

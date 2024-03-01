@@ -11,7 +11,7 @@
         body {
             background-color: #0667B3;
             font-family: Arial, Helvetica, sans-serif;
-            overflow-y:visible;
+            overflow-y:auto !important;
             width:100%;
             height:100vh;
         }
@@ -22,7 +22,7 @@
             padding: 20px;
             background-color: #FFFFFF;
             border-radius: 10px;
-            margin-top: 50px;
+            margin-top: 15px;
             transition:9s;
         }
         table{
@@ -245,6 +245,7 @@
                 echo '</tr>';
 
                 foreach ($registros as $registro) {
+                    
                     echo "<tr>";
                     echo "<td class='table-data'>{$registro['NOME']}</td>";
                     echo "<td class='table-data'>{$registro['EMAIL']}</td>";
@@ -254,7 +255,7 @@
                     $ID = $registro['ID'];
                     echo "<td class='table-data'>$departamento</td>";
                     echo "<td class='table-data'>{$registro['TIPO_DE_PERFIL']}</td>";
-                    echo "<td class='table-data'><a href='alterar_usuario.php?ID=$  ID'>Alterar</a></td>";
+                    echo "<td class='table-data'><a href='alterar_usuario.php?ID=$ID'>Alterar</a></td>";
                    if ($status == 1) {
                         echo "<td class='table-data'><a href='inativar_usuario.php?ID=$ID'>Inativar</a></td>";
                     } else {

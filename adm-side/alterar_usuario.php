@@ -80,14 +80,14 @@ if ($conn->connect_error) {
             $senha  = $row["senha"];
 
             
-        } else if($tipo_perfil != "ADMINISTRADOR") {
+        } else if($tipo_perfil != "administrador" || $tipo_perfil != "ADMINISTRADOR"  ) {
             // Lógica para tratar o caso em que o usuário não é encontrado
            // echo '<script>alert("Não rolou")</script>';
            // echo $sql;
            
            header("Location: manager.php");
                if($_SESSION['manager.php'] = true){
-                   echo 'alert("Usuário sem permissão");';
+                   echo '<script>alert("Usuário sem permissão");</script>';
                }
      
         }
@@ -132,7 +132,7 @@ if ($conn->connect_error) {
 
         <label for="tipo_perfil">Categoria de Perfil:</label>
         <select id="tipo_perfil" name="tipo_perfil" required>
-                    <option value="administrador"   <?php echo ($tipo_perfil == 'administrador') ? 'selected' : '' ; ?>     >           ADMINISTRADOR </option>
+                    <option value="administrador"   <?php echo ($tipo_perfil == 'administrador') ? 'selected' : '' ; ?>     >           ADMINISTRADOR   </option>
                     <option value="gerenciador"     <?php echo ($tipo_perfil == 'gerenciador'  ) ? 'selected' : '' ; ?>     >             GERENCIADOR   </option>
         </select>
         <br>
