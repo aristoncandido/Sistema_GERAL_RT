@@ -67,6 +67,12 @@
             text-align:center;
         }
         
+        form{
+            width:70%;
+            margin:0 auto;
+            text-align:center;
+        }
+        
         
         
         
@@ -185,30 +191,7 @@
                  <figcaption>Sair</figcaption>
             </a>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
         <main>
             <div class="block-right pesquisar">
                 <form  action="pesquisa.php" method="GET" >
@@ -224,16 +207,16 @@
                             <option value="protocolo">Protocolo</option>
                         </select>
                         
-                        <button class="btn-pesquisa" " type="submit">
+                        <button class="btn-pesquisa"  type="submit">
                             <img id="btn-pesquisa" src="../IMGS/search-icon.svg" alt="" srcset="">
                         </button>
                 
                 
-                </form> <!-- form -->
+                </form>
                 
-            </div><!-- pesquisar -->
-        </main> <!-- main -->
-    </div><!-- Conteiner Top -->
+            </div>
+        </main> 
+    </div>
     
     
     <div>
@@ -244,6 +227,36 @@
     </div>
     
     
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     
 

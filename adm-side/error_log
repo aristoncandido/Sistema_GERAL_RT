@@ -665,3 +665,11 @@ Stack trace:
 [01-Mar-2024 17:27:21 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
 [01-Mar-2024 17:27:26 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
 [01-Mar-2024 17:27:35 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 56
+[05-Mar-2024 14:46:52 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 55
+[05-Mar-2024 16:58:16 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 55
+[05-Mar-2024 16:58:21 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 55
+[05-Mar-2024 17:39:29 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 90
+[05-Mar-2024 17:39:33 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 90
+[05-Mar-2024 17:39:36 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 90
+[05-Mar-2024 17:41:12 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 91
+[05-Mar-2024 17:43:19 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in /home/coren341/public_html/srt/adm-side/pesquisa.php on line 91
