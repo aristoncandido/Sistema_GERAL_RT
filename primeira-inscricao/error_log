@@ -1498,3 +1498,11 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/coren341/public_html/srt/primeira-inscricao/procurar_cpf.php on line 326
+[07-Mar-2024 13:30:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function closeCursor() on null in /home/coren341/public_html/srt/primeira-inscricao/procurar_cpf.php:326
+Stack trace:
+#0 {main}
+  thrown in /home/coren341/public_html/srt/primeira-inscricao/procurar_cpf.php on line 326
+[07-Mar-2024 13:31:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function closeCursor() on null in /home/coren341/public_html/srt/primeira-inscricao/procurar_cpf.php:326
+Stack trace:
+#0 {main}
+  thrown in /home/coren341/public_html/srt/primeira-inscricao/procurar_cpf.php on line 326

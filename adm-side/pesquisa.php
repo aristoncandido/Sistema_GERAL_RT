@@ -30,9 +30,10 @@
                 .resultado{
                     display:flex;
                     width:100%;
-                    justify-content:space-around;
+                    justify-content:space-between;
                     border: 1px solid #8080805e;
                     margin-top:2%;
+                    padding:0 2%;
                 }
                 
                 .resultado h4{
@@ -45,6 +46,16 @@
                     
                 }
                     
+                    
+                    p{
+                        text-align:center;
+                        
+                        display:flex;
+                        
+                        align-items:center;
+                        
+                        
+                    }
     
     
     </style>
@@ -65,80 +76,55 @@
             <div class="conteiner">
             		
             		<div class="resultado-pesquisa">
-            <?php
-                        
-                        
-                        
-                        if(isset($_GET['pesquisa'])){
-                            
-                            
-                            
-                            
-                            
-                            
+                 <?php
+                                    
+                                       if (isset($_GET['pesquisa'])) {
                         $pesquisa = $_GET['pesquisa'];
+                        $filtro = $_GET['filtro'];
+                    
+                        if ($filtro == "nome") {
+                            $sql = "SELECT * FROM profissional WHERE nome_completo LIKE '%$pesquisa%' ORDER BY id";
+                        } else if ($filtro == "cpf") {
+                            $sql = "SELECT * FROM profissional WHERE cpf LIKE '%$pesquisa%' ORDER BY id";
+                        } else {
+                            echo "<span>Nada encontrado ⚠️</span>";
+                        }
+                    
+                        $result = mysqli_query($conn, $sql);
+                    
+                        if ($result->num_rows > 0) {
+                            echo '<h3>buscando por... </h3>';
+                            echo '<h1>Resultado da Busca</h1>';
                             
+                          
                             
-                            if( ){ //filtragem do select
+                            while ($profissional = $result->fetch_assoc()) {
                                 
-                                       
-                            
-                                   $sql = "SELECT * FROM profissional WHERE nome_completo LIKE '%$pesquisa%' ORDER BY id";
-        
-                                    
-                                   $result = mysqli_query($conn,$sql);
-                                    
-                                    
-                                    if($result -> num_rows > 0){
-                                
-                                
-                              	$profissional = $result->fetch_assoc();            
+                                $registro ++;
                                 $nome = $profissional['nome_completo'];
                                 $email = $profissional['email'];
-                                
-                                
-                                 echo '<h3>buscando por... </h3>' ;
-                                 echo '<h1>Resultado da Busca</h1>' ;
-               
-                                     
-                                 echo '<div class="resultado">';
-                                 echo "<h4>$nome</h4>"  ;
-                                 echo "<h4>$email</h4>";
-                                 echo '</div>';
-                                 
-                                 
-                                 
-                                 
-                                 
-                             
-                                
-                                
-                            }
-                     
+                                $cpf = $profissional['cpf'];
                                 
                                 
                                 
                                 
+                                echo '<div class="resultado">';
                                 
-                                
-                                
-                            }else{
-                                echo "<span>Nada encontrado ⚠️   </span>";
+                                echo "<p>$registro ° Registro</p>";
+                                echo "<h4>$nome</h4>";
+                                echo "<h4></h4>";
+                                echo "<h4>$cpf</h4>";
+                                echo '</div>';
+                               
                             }
                             
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
+                          
+                        } else {
+                            echo "<span>Nada encontrado ⚠️</span>";
                         }
-            
-            
-            
+                    }
+        
+                    
             
          	?>
         
