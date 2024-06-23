@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "coren341_corenpegeral";
-$password = "OB^29?feMp&)";
-$database = "coren341_sistemacorenpegeral";
+$username = "z;
+$password = "z";
+$database = "z";
 
 // Cria uma conexão
 $conn = new mysqli($servername, $username, $password, $database);
